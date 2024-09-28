@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/Hero";
 import FeatureBoxes from "./Components/Boxes";
