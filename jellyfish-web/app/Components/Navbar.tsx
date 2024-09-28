@@ -7,9 +7,9 @@ import { motion, AnimatePresence, useAnimation } from 'framer-motion'
 
 const navItems = [
   { name: 'Home', href: '/', icon: Home },
-  { name: 'Rules', href: '/rules', icon: Book },
+  { name: 'Regole', href: '/regolamento', icon: Book },
   { name: 'Ranks', href: '/ranks', icon: Diamond },
-  { name: 'Wiki', href: '/wiki', icon: Sword },
+  { name: 'Staff', href: '#staff', icon: Sword },
 ]
 
 export default function Navbar() {
