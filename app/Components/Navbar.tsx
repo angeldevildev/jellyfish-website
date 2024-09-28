@@ -108,7 +108,7 @@ export default function Navbar() {
 interface NavLinkProps {
   href: string;
   children: React.ReactNode;
-  icon: React.ComponentType;
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>; // Accetta componenti SVG con props
   mobile?: boolean;
 }
 
@@ -124,6 +124,7 @@ function NavLink({ href, children, icon: Icon, mobile = false }: NavLinkProps) {
         whileTap={{ scale: 0.9 }}
         className="flex items-center"
       >
+        {/* Assicurati che l'icona passi tutte le props necessarie */}
         <Icon className="mr-2 h-5 w-5 text-orange-500 group-hover:text-orange-400" />
         {children}
         {!mobile && (
