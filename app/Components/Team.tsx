@@ -23,7 +23,7 @@ const teamMembers = [
     avatar: santiagoAvatar
   },
   {
-    name: "nonsonoio09",
+    name: "Kaindis",
     title: "Owner",
     description: "Io kenny_viola o come mi conoscono meglio marcoshd sono il megabuilder e costruttore della lobby, aver ottenuto il ruolo dallo staff e stato bellissimo. Staff gentilissimo. Vi aspettiamo nel server boysss",
     skin: kaindisSkin,
