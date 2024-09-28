@@ -45,3 +45,8 @@ body {
   font-family: "MineCraftFont2";
   src: url("./fonts/VT323-Regular.ttf");
 }
+
+@font-face {
+  font-family: "MontSerratExtraBold";
+  src: url("../app/fonts/Montserrat-ExtraBold.ttf");
+}

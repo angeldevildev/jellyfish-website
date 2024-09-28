@@ -32,7 +32,7 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className="fixed w-full z-50 text-white p-4 mt-4"
+      className="fixed w-full z-50 text-white p-4"
       initial={{ backgroundColor: 'rgba(17, 24, 39, 0)' }}
       animate={controls}
     >
@@ -42,10 +42,10 @@ export default function Navbar() {
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.5 }}
           >
-            <Pickaxe className="h-10 w-10 text-orange-500 group-hover:text-orange-400 transition-colors duration-300" />
+            <Pickaxe className="h-8 w-8 lg:h-10 lg:w-10 text-orange-500 group-hover:text-orange-400 transition-colors duration-300" />
           </motion.div>
-          <span className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500 group-hover:from-orange-400 group-hover:to-yellow-400 transition-all duration-300" style={{ fontFamily: "MineCraftFont" }}>JellyFish</span>
-        </Link>
+          <span className="text-xl lg:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500 group-hover:from-orange-400 group-hover:to-yellow-400 transition-all duration-300" style={{ fontFamily: "MineCraftFont" }}>JellyFish</span>
+        </Link> 
         
         {/* Desktop menu */}
         <div className="hidden lg:flex space-x-1" style={{ fontFamily: "MineCraftFont" }}>
@@ -59,7 +59,7 @@ export default function Navbar() {
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold py-2 px-6 rounded-full transition duration-300 shadow-lg hover:shadow-orange-500/50" style={{ fontFamily: "MineCraftFont" }}
+            className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold py-2 px-4 lg:px-6 rounded-full transition duration-300 shadow-lg hover:shadow-orange-500/50 text-sm lg:text-base" style={{ fontFamily: "MineCraftFont" }}
           >
             Store
           </motion.div>
