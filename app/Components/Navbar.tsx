@@ -105,7 +105,14 @@ export default function Navbar() {
   )
 }
 
-function NavLink({ href, children, icon: Icon, mobile = false }) {
+interface NavLinkProps {
+  href: string;
+  children: React.ReactNode;
+  icon: React.ComponentType;
+  mobile?: boolean;
+}
+
+function NavLink({ href, children, icon: Icon, mobile = false }: NavLinkProps) {
   const baseClasses = "text-gray-300 hover:text-white transition duration-300 flex items-center"
   const desktopClasses = mobile ? "" : "px-4 py-2 rounded-md hover:bg-gray-800"
   const mobileClasses = mobile ? "block py-3 px-4 hover:bg-gray-700" : ""
@@ -130,5 +137,5 @@ function NavLink({ href, children, icon: Icon, mobile = false }) {
         )}
       </motion.div>
     </Link>
-  )
+  );
 }
