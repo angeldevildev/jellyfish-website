@@ -24,7 +24,7 @@ const rules = {
     { id: 7, text: "É vietato importunare lo staff nel server Discord, aprite un ticket se avete bisogno." }
   ],
   2: [
-    { id: 1, text: "Non griefare o rubare dai costruzioni o dalle casse di altri giocatori." },
+    { id: 1, text: "Non griefare o rubare dalle costruzioni o dalle casse di altri giocatori." },
     { id: 2, text: "Rispetta l'ambiente naturale. Evita di terraformare eccessivamente senza permesso." },
     { id: 3, text: "L&apos;uso di texture pack o mod x-ray è vietato." },
   ],
@@ -40,7 +40,7 @@ const rules = {
   ],
   5: [
     { id: 1, text: "Niente parolacce, argomenti inappropriati o linguaggio offensivo." },
-    { id: 2, text: "Evita l'uso eccessivo del blocco maiuscole." },
+    { id: 2, text: "Evita l&apos;uso eccessivo del blocco maiuscole." },
     { id: 3, text: "Rispetta le opinioni degli altri ed evita di iniziare o partecipare a discussioni." },
   ],
   6: [
