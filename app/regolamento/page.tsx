@@ -87,9 +87,10 @@ export default function Regolamento() {
               <h4 className="text-white text-xl font-bold mb-4" style={{ fontFamily: "MineCraftFont" }}>
                 {categories.find(c => c.id === selectedCategory)?.name.toUpperCase()}
               </h4>
-              <div className="bg-orange-600 text-white p-4 rounded-md mb-6" style={{ fontFamily: "MineCraftFont2" }}>
-                Lo staff del server si riserva il diritto di modificare queste regole in qualsiasi momento. I giocatori sono tenuti a rimanere informati su qualsiasi modifica. L'ignoranza delle regole non è una scusa per infrangerle.
-              </div>
+            <div className="bg-orange-600 text-white p-4 rounded-md mb-6" style={{ fontFamily: "MineCraftFont2" }}>
+                Lo staff del server si riserva il diritto di modificare queste regole in qualsiasi momento. I giocatori sono tenuti a rimanere informati su qualsiasi modifica. L&apos;ignoranza delle regole non è una scusa per infrangerle.
+                </div>
+
               <AnimatePresence mode="wait">
                 <motion.div
                   key={selectedCategory}
