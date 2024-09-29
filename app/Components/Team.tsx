@@ -25,7 +25,7 @@ const teamMembers = [
   {
     name: "Kaindis",
     title: "Owner",
-    description: "Io kenny_viola o come mi conoscono meglio marcoshd sono il megabuilder e costruttore della lobby, aver ottenuto il ruolo dallo staff e stato bellissimo. Staff gentilissimo. Vi aspettiamo nel server boysss",
+    description: "Ciao , Sono Kaindis , l’owner di questo splendido server ! Sono bravo in molte cose così come  build ,  robe digitali oppure la gestione del server. Spero vi troviate bene nel server è che vi piaccia , buona giocata !",
     skin: kaindisSkin,
     avatar: kaindisAvatar
   },
