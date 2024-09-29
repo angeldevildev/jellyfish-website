@@ -69,7 +69,7 @@ export async function GET(req: NextRequest) {
             gap: '20px',
           }}
         >
-          {['Survival', 'Creative', 'Minigames'].map((mode, index) => (
+          {['Survival', 'KitPVP', 'Minigames'].map((mode, index) => (
             <div
               key={index}
               style={{
