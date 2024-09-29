@@ -20,13 +20,13 @@ const rules = {
     { id: 3, text: "Non è consentito fare spam nella chat o tramite messaggi privati." },
     { id: 4, text: "È proibito pubblicizzare altri server o siti web." },
     { id: 5, text: "Non è permesso impersonare membri dello staff o altri giocatori." },
-    { id: 6, text: "É severamente vietato fare doxxing" },
-    { id: 7 , text: "É vietato importunare lo staff nel server Discord, aprite un ticket se avete bisogno" }
+    { id: 6, text: "É severamente vietato fare doxxing." },
+    { id: 7, text: "É vietato importunare lo staff nel server Discord, aprite un ticket se avete bisogno." }
   ],
   2: [
     { id: 1, text: "Non griefare o rubare dai costruzioni o dalle casse di altri giocatori." },
     { id: 2, text: "Rispetta l'ambiente naturale. Evita di terraformare eccessivamente senza permesso." },
-    { id: 3, text: "L'uso di texture pack o mod x-ray è vietato." },   
+    { id: 3, text: "L&apos;uso di texture pack o mod x-ray è vietato." },
   ],
   3: [
     { id: 1, text: "Non copiare o rivendicare le costruzioni di altri come tue." },
@@ -36,7 +36,7 @@ const rules = {
   4: [
     { id: 1, text: "Il PvP è consentito solo in aree designate o con il consenso reciproco." },
     { id: 2, text: "Uccidere o fare camping allo spawn non è permesso." },
-    { id: 3, text: "L'uso di hack client o mod PvP ingiuste è severamente vietato." },
+    { id: 3, text: "L&apos;uso di hack client o mod PvP ingiuste è severamente vietato." },
   ],
   5: [
     { id: 1, text: "Niente parolacce, argomenti inappropriati o linguaggio offensivo." },
@@ -47,7 +47,7 @@ const rules = {
     { id: 1, text: "Mantieni una distanza ragionevole dalle costruzioni di altri giocatori, a meno che non ti venga dato il permesso." },
     { id: 2, text: "Mantieni i congegni di redstone ottimizzati e rispettosi del lag." },
     { id: 3, text: "Evita di costruire strutture che possano causare lag o affaticare il server." },
-  ],  
+  ],
 }
 
 export default function Regolamento() {
