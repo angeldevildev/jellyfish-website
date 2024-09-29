@@ -4,6 +4,7 @@ import FeatureBoxes from "./Components/Boxes";
 import GameModeCarousel from "./Components/GameModes";
 import MeetTheTeam from "./Components/Team";
 import { Analytics } from "@vercel/analytics/react"
+import Regolamento from "./regolamento/page";
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
       <HeroSection />
       <FeatureBoxes />
       <GameModeCarousel />
+      <Regolamento />
       <MeetTheTeam />
-
       <Analytics />
     </div>
   );

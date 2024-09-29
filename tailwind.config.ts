@@ -14,6 +14,7 @@ const config: Config = {
       },
       screens: {
         "phone": { max: "409px" },
+        "phone-medium" : { max: "417px"},
         "phone-small": { max: "347px" },
       }
     },
