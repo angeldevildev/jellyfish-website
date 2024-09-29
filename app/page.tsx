@@ -5,6 +5,7 @@ import GameModeCarousel from "./Components/GameModes";
 import MeetTheTeam from "./Components/Team";
 import { Analytics } from "@vercel/analytics/react"
 import Regolamento from "./regolamento/page";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <GameModeCarousel />
       <Regolamento />
       <MeetTheTeam />
+      <SpeedInsights />
       <Analytics />
     </div>
   );
