@@ -32,7 +32,7 @@ const teamMembers = [
   {
     name: "Angel & Devil",
     title: "Sr.Admin & Developer",
-    description: "AngelNotFound il Sr.Admin e Developer del server, io mi occupo di un po' di tutto in realtà, mi sono occupato e mi sto occupando del sito web che in questo momento state vedendo, mi occupo di diverse costruzioni del server MineCraft e in fine del server Discord, la nuova versione del server Discord rimodernizzata infatti è completamente creata da me, inoltre nel server Discord ho provveduto a sviluppare l'intero bot Discord.",
+    description: "Angel & Devil il Sr.Admin e Developer del server, io mi occupo di un po' di tutto in realtà, mi sono occupato e mi sto occupando del sito web che in questo momento state vedendo, mi occupo di diverse costruzioni del server MineCraft e in fine del server Discord, la nuova versione del server Discord rimodernizzata infatti è completamente creata da me, inoltre nel server Discord ho provveduto a sviluppare l'intero bot Discord.",
     avatar: angelAvatar,
     skin: angelSkin,
   },

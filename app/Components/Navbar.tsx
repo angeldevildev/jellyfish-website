@@ -89,7 +89,7 @@ export default function Navbar() {
             {navItems.map((item) => (
               <NavLink key={item.name} href={item.href} icon={item.icon} mobile>{item.name}</NavLink>
             ))}
-            <Link href="/store" className="block">
+            <Link href="https://jellyfish-shop.vercel.app" className="block">
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
