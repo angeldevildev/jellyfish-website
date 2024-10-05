@@ -39,7 +39,7 @@ const rules: Rules = {
     { id: 3, text: "I progetti di terraformazione su larga scala devono essere approvati dallo staff." },
   ],
   4: [
-    { id: 1, text: "Il PvP è consentito solo in aree designate o con il consenso reciproco." },
+    { id: 1, text: "Il PvP è consentito solo con il consenso reciproco." },
     { id: 2, text: "Uccidere o fare camping allo spawn non è permesso." },
     { id: 3, text: "L'uso di hack client o mod PvP ingiuste è severamente vietato." },
   ],
