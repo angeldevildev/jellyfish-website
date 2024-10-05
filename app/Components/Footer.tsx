@@ -15,22 +15,22 @@ export default function Footer() {
             <h4 className="text-lg font-semibold uppercase" style={{ fontFamily: "MineCraftFont" }}>Links Rapidi</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#" className="hover:text-[#ff6b00] transition-colors text-l" style={{ fontFamily: "MineCraftFont2" }}>
+                <Link href="#" className="hover:text-[#ff6b00] transition-colors text-xl" style={{ fontFamily: "MineCraftFont2" }}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#modalità" className="hover:text-[#ff6b00] transition-colors" style={{ fontFamily: "MineCraftFont2" }}>
+                <Link href="#modalità" className="hover:text-[#ff6b00] transition-colors text-xl" style={{ fontFamily: "MineCraftFont2" }}>
                   Modalità
                 </Link>
               </li>
               <li>
-              <Link href="#regolamento" className="hover:text-[#ff6b00] transition-colors" style={{ fontFamily: "MineCraftFont2" }}>
+                <Link href="#regolamento" className="hover:text-[#ff6b00] transition-colors text-xl" style={{ fontFamily: "MineCraftFont2" }}>
                   Regole
                 </Link>
               </li>
               <li>
-                <Link href="#staff" className="hover:text-[#ff6b00] transition-colors" style={{ fontFamily: "MineCraftFont2" }}>
+                <Link href="#staff" className="hover:text-[#ff6b00] transition-colors text-xl" style={{ fontFamily: "MineCraftFont2" }}>
                   Team
                 </Link>
               </li>
