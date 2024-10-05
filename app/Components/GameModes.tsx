@@ -38,7 +38,7 @@ export default function GameModeCarousel() {
   }, [])
 
   return (
-    <div className="bg-gray-900 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gray-900 py-16 px-4 sm:px-6 lg:px-8" id='modalità'>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-orange-500 text-lg mb-2" style={{ fontFamily: "MineCraftFont" }}>COSA OFFRIAMO</h2>
         <h3 className="text-white text-4xl font-bold mb-8" style={{ fontFamily: "MineCraftFont" }}>SCOPRI LE NOSTRE MODALITÀ</h3>
