@@ -25,7 +25,7 @@ const teamMembers = [
   {
     name: "Kaindis",
     title: "Owner",
-    description: "Ciao , Sono Kaindis , l’owner di questo splendido server ! Sono bravo in molte cose così come  build ,  robe digitali oppure la gestione del server. Spero vi troviate bene nel server è che vi piaccia , buona giocata !",
+    description: "Ciao , Sono Kaindis , l’owner di questo splendido server! Sono bravo in molte cose così come  build oppure la gestione del server. Spero vi troviate bene nel server è che vi piaccia , buona giocata!",
     skin: kaindisSkin,
     avatar: kaindisAvatar
   },
