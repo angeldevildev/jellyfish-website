@@ -86,17 +86,6 @@ export async function GET(req: NextRequest) {
             </div>
           ))}
         </div>
-        <div
-          style={{
-            position: 'absolute',
-            bottom: 20,
-            fontSize: 24,
-            color: '#FFFFFF',
-            opacity: 0.7,
-          }}
-        >
-          Unisciti ora: JellyFishMC.aternos.me
-        </div>
       </div>
     ),
     {
