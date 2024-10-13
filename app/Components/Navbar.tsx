@@ -8,7 +8,7 @@ import { motion, AnimatePresence, useAnimation } from 'framer-motion'
 const navItems = [
   { name: 'Home', href: '/', icon: Home },
   { name: 'Regole', href: '#regole', icon: Book },
-  { name: 'Ranks', href: '/ranks', icon: Diamond },
+  { name: 'Ranks', href: 'https://jellyfish-shop.vercel.app', icon: Diamond },
   { name: 'Staff', href: '#staff', icon: Sword },
 ]
 
