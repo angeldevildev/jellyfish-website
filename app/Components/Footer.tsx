@@ -61,7 +61,7 @@ export default function Footer() {
               Links Rapidi
             </motion.h4>
             <ul className="space-y-2 text-sm">
-              {['Home', 'Modalità', 'Regole', 'Team'].map((item, index) => (
+              {['Home', 'Modalità', 'Regole', 'Team'].map((item) => (
                 <motion.li key={item} variants={itemVariants}>
                   <Link 
                     href={item === 'Home' ? '#' : `#${item.toLowerCase()}`} 
