@@ -7,12 +7,12 @@ import Image from 'next/image'
 // Import local images
 import kennySkin from '../assets/kenny.png'
 import avatarKenny from '../assets/avatarKenny.png'
-import santiagoSkin from '../assets/santiagoSkin.png';
-import santiagoAvatar from '../assets/santiagoAvatar.png';
-import angelAvatar from '../assets/avatarAngel.png';
-import angelSkin from '../assets/skinAngel.png';
-import kaindisSkin from '../assets/kaindisSkin.png';
-import kaindisAvatar from '../assets/kaindisAvatar.png';
+import santiagoSkin from '../assets/santiagoSkin.png'
+import santiagoAvatar from '../assets/santiagoAvatar.png'
+import angelAvatar from '../assets/avatarAngel.png'
+import angelSkin from '../assets/skinAngel.png'
+import kaindisSkin from '../assets/kaindisSkin.png'
+import kaindisAvatar from '../assets/kaindisAvatar.png'
 
 const teamMembers = [
   {
@@ -25,7 +25,7 @@ const teamMembers = [
   {
     name: "Kaindis",
     title: "Owner",
-    description: "Ciao , Sono Kaindis , l’owner di questo splendido server! Sono bravo in molte cose così come  build oppure la gestione del server. Spero vi troviate bene nel server è che vi piaccia , buona giocata!",
+    description: "Ciao , Sono Kaindis , l'owner di questo splendido server! Sono bravo in molte cose così come  build oppure la gestione del server. Spero vi troviate bene nel server è che vi piaccia , buona giocata!",
     skin: kaindisSkin,
     avatar: kaindisAvatar
   },
@@ -49,12 +49,39 @@ export default function MeetTheTeam() {
   const [currentMember, setCurrentMember] = useState(0)
 
   return (
-    <div className="bg-gray-900 py-16 px-4 sm:px-6 lg:px-8" id='staff'>
+    <motion.div 
+      className="bg-gray-900 py-16 px-4 sm:px-6 lg:px-8" 
+      id='staff'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-orange-500 text-lg mb-2" style={{ fontFamily: "MineCraftFont" }}>CHI SIAMO</h2>
-        <h3 className="text-white text-4xl font-bold mb-8" style={{ fontFamily: "MineCraftFont" }}>SCOPRI IL TEAM</h3>
+        <motion.h2 
+          className="text-orange-500 text-lg mb-2" 
+          style={{ fontFamily: "MineCraftFont" }}
+          initial={{ y: -20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
+        >
+          CHI SIAMO
+        </motion.h2>
+        <motion.h3 
+          className="text-white text-4xl font-bold mb-8" 
+          style={{ fontFamily: "MineCraftFont" }}
+          initial={{ y: -20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.5 }}
+        >
+          SCOPRI IL TEAM
+        </motion.h3>
         
-        <div className="bg-gray-800 rounded-lg p-6 md:p-8 relative overflow-hidden">
+        <motion.div 
+          className="bg-gray-800 rounded-lg p-6 md:p-8 relative overflow-hidden"
+          initial={{ scale: 0.95, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ delay: 0.4, duration: 0.5 }}
+        >
           <AnimatePresence mode="wait">
             <motion.div
               key={currentMember}
@@ -65,17 +92,40 @@ export default function MeetTheTeam() {
               className="flex flex-col md:flex-row items-center md:items-start gap-8"
             >
               <div className="w-full md:w-2/3">
-                <h4 className="text-white text-2xl font-bold mb-2" style={{ fontFamily: "MineCraftFont" }}>
+                <motion.h4 
+                  className="text-white text-2xl font-bold mb-2" 
+                  style={{ fontFamily: "MineCraftFont" }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.1, duration: 0.3 }}
+                >
                   {teamMembers[currentMember].name}
-                </h4>
-                <div className="bg-orange-500 text-white text-sm font-bold py-1 px-2 rounded-full inline-block mb-4" style={{ fontFamily: "MineCraftFont" }}>
+                </motion.h4>
+                <motion.div 
+                  className="bg-orange-500 text-white text-sm font-bold py-1 px-2 rounded-full inline-block mb-4" 
+                  style={{ fontFamily: "MineCraftFont" }}
+                  initial={{ scale: 0, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ delay: 0.2, duration: 0.3 }}
+                >
                   {teamMembers[currentMember].title}
-                </div>
-                <p className="text-gray-300" style={{ fontFamily: "MineCraftFont2" }}>
+                </motion.div>
+                <motion.p 
+                  className="text-gray-300" 
+                  style={{ fontFamily: "MineCraftFont2" }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.3, duration: 0.3 }}
+                >
                   {teamMembers[currentMember].description}
-                </p>
+                </motion.p>
               </div>
-              <div className="w-full md:w-1/3 flex justify-center">
+              <motion.div 
+                className="w-full md:w-1/3 flex justify-center"
+                initial={{ scale: 0.9, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ delay: 0.4, duration: 0.3 }}
+              >
                 <Image
                   src={teamMembers[currentMember].skin}
                   alt={`${teamMembers[currentMember].name}'s Minecraft skin`}
@@ -83,19 +133,26 @@ export default function MeetTheTeam() {
                   height={400}
                   className="rounded-lg"
                 />
-              </div>
+              </motion.div>
             </motion.div>
           </AnimatePresence>
           
-          <div className="flex justify-center mt-8 space-x-2">
+          <motion.div 
+            className="flex justify-center mt-8 space-x-2"
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.5, duration: 0.5 }}
+          >
             {teamMembers.map((member, index) => (
-              <button
+              <motion.button
                 key={index}
                 onClick={() => setCurrentMember(index)}
                 className={`w-10 h-10 rounded-full overflow-hidden border-2 ${
                   index === currentMember ? 'border-orange-500' : 'border-transparent'
                 } focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50 transition-all duration-200`}
                 aria-label={`View ${member.name}'s profile`}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
               >
                 <Image
                   src={member.avatar}
@@ -103,11 +160,11 @@ export default function MeetTheTeam() {
                   width={40}
                   height={40}
                 />
-              </button>
+              </motion.button>
             ))}
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   )
 }
