@@ -30,7 +30,7 @@ const teamMembers = [
   {
     name: "Kenny_Viola",
     title: "MegaBuilder",
-    description: "Io kenny_viola o come mi conoscono meglio marcoshd sono il megabuilder e costruttore della lobby, aver ottenuto il ruolo dallo staff e stato bellissimo. Staff gentilissimo. Vi aspettiamo nel server boysss",
+    description: "Io kenny_viola o marcoshd, sono il MegaBuilder di CrystalCove, ho aiutato a costruire diverse cose nel server e vi aspettiamo per iniziare a giocare! ENTRATE BOYSS!",
     skin: kennySkin,
     avatar: avatarKenny
   }
