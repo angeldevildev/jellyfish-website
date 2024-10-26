@@ -2,12 +2,13 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Menu, X, Pickaxe, ChevronDown, Diamond, Sword, Book, Home } from 'lucide-react'
+import { Menu, X, Pickaxe, ChevronDown, Sword, Book, Home } from 'lucide-react'
 import { motion, AnimatePresence, useAnimation } from 'framer-motion'
 
 const navItems = [
   { name: 'Home', href: '/', icon: Home },
   { name: 'Regole', href: '#regole', icon: Book },
+  //{ name: 'Ranks', href: '/', icon: Diamond },
   { name: 'Staff', href: '#staff', icon: Sword },
 ]
 
