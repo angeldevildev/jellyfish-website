@@ -41,14 +41,14 @@ export default function Component() {
                 TI ASPETTANO
               </h1>
               <p className="text-gray-300 text-base sm:text-lg lg:text-xl xl:text-2xl mb-8 max-w-xl" style={{ fontFamily: "MinecraftFont2" }}>
-                JellyFishMC è un server MineCraft a più modalità lanciato nel 2024, il server è attualmente in costruzione ma puoi giocare proprio ORA nella Survival!
+                CrystalCove è un server MineCraft a più modalità lanciato nel 2024, le attuali modalità sono: Survival, KitPVP e Arena. Sta per arrivare una nuova!
               </p>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <a
-                  href="https://discord.gg/ZxW9wJKnf7"
+                  href="https://discord.gg/dmeEKeUhbD"
                   className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl"
                   style={{ fontFamily: "MineCraftFont2" }}
                 >

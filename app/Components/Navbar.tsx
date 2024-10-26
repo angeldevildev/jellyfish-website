@@ -8,7 +8,7 @@ import { motion, AnimatePresence, useAnimation } from 'framer-motion'
 const navItems = [
   { name: 'Home', href: '/', icon: Home },
   { name: 'Regole', href: '#regole', icon: Book },
-  { name: 'Ranks', href: 'https://jellyfish-shop.vercel.app', icon: Diamond },
+  { name: 'Ranks', href: '/', icon: Diamond },
   { name: 'Staff', href: '#staff', icon: Sword },
 ]
 
@@ -42,9 +42,11 @@ export default function Navbar() {
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.5 }}
           >
-            <Pickaxe className="h-8 w-8 lg:h-10 lg:w-10 text-orange-500 group-hover:text-orange-400 transition-colors duration-300" />
+          <Pickaxe className="h-8 w-8 lg:h-10 lg:w-10 text-red-500 group-hover:text-red-400 transition-colors duration-300" />
           </motion.div>
-          <span className="text-xl lg:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500 group-hover:from-orange-400 group-hover:to-yellow-400 transition-all duration-300" style={{ fontFamily: "MineCraftFont" }}>JellyFish</span>
+          <span className="text-xl lg:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#FF5555] to-[#FF3333] group-hover:from-[#FF4444] group-hover:to-[#FF2222] transition-all duration-300" style={{ fontFamily: "MineCraftFont" }}>
+              CrystalCove
+          </span>
         </Link> 
         
         {/* Desktop menu */}
@@ -55,11 +57,11 @@ export default function Navbar() {
         </div>
         
         {/* Store button */}
-        <Link href="https://jellyfish-shop.vercel.app" className="hidden lg:block">
+        <Link href="/" className="hidden lg:block">
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold py-2 px-4 lg:px-6 rounded-full transition duration-300 shadow-lg hover:shadow-orange-500/50 text-sm lg:text-base" style={{ fontFamily: "MineCraftFont" }}
+            className="bg-gradient-to-r from-[#FF5555] to-[#FF3333] text-white font-bold py-2 px-4 lg:px-6 rounded-full transition duration-300 shadow-lg hover:shadow-red-500/50 text-sm lg:text-base" style={{ fontFamily: "MineCraftFont" }}
           >
             Store
           </motion.div>
@@ -93,7 +95,8 @@ export default function Navbar() {
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold py-3 px-4 transition duration-300 text-center" style={{ fontFamily: "MineCraftFont" }}
+                className="bg-gradient-to-r from-[#FF5555] to-[#FF3333] text-white font-bold py-3 px-4 transition duration-300 text-center" style={{ fontFamily: "MineCraftFont" }}
+
               >
                 Store
               </motion.div>
@@ -125,7 +128,8 @@ function NavLink({ href, children, icon: Icon, mobile = false }: NavLinkProps) {
         className="flex items-center"
       >
         {/* Assicurati che l'icona passi tutte le props necessarie */}
-        <Icon className="mr-2 h-5 w-5 text-orange-500 group-hover:text-orange-400" />
+        <Icon className="mr-2 h-5 w-5 text-[#FF5555] group-hover:text-[#FF3333]" />
+
         {children}
         {!mobile && (
           <motion.div

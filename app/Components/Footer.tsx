@@ -38,11 +38,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <motion.div className="space-y-4" variants={itemVariants}>
             <motion.h3 
-              className="text-[#ff6b00] text-2xl font-bold uppercase" 
+              className="text-[#FF5555] text-2xl font-bold uppercase"
               style={{ fontFamily: "MineCraftFont" }}
               whileHover={{ scale: 1.05 }}
             >
-              JellyFish
+              CrystalCove
             </motion.h3>
             <motion.p 
               className="text-l" 
@@ -65,7 +65,7 @@ export default function Footer() {
                 <motion.li key={item} variants={itemVariants}>
                   <Link 
                     href={item === 'Home' ? '#' : `#${item.toLowerCase()}`} 
-                    className="hover:text-[#ff6b00] transition-colors text-xl inline-block" 
+                    className="hover:text-[#FF5555] transition-colors text-xl inline-block"
                     style={{ fontFamily: "MineCraftFont2" }}
                   >
                     <motion.span
@@ -89,13 +89,13 @@ export default function Footer() {
           <motion.a 
             href="https://www.codedoddle.com/" 
             target='_blank' 
-            className="inline hover:text-[#ff6b00] transition-colors" 
+            className="inline hover:text-[#FF5555] transition-colors"
             style={{ fontFamily: "MineCraftFont2" }}
             whileHover={{ scale: 1.05 }}
           >
             angeldevildev
           </motion.a>
-          <motion.p variants={itemVariants}>&copy; {new Date().getFullYear()} JellyFish. Tutti i diritti riservati.</motion.p>
+          <motion.p variants={itemVariants}>&copy; {new Date().getFullYear()} CrystalCove. Tutti i diritti riservati.</motion.p>
         </motion.div>
       </div>
     </motion.footer>

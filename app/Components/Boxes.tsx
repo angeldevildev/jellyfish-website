@@ -6,14 +6,14 @@ import { useEffect, useState } from 'react'
 
 const features = [
   {
-    title: "Quasi sempre aperto",
-    description: "Il nostro server è quasi sempre aperto, avvolte rimane aperto fino alle +23:00 per permetterti di giocare quanto tempo vuoi",
+    title: "Sempre Aperto",
+    description: "Il nostro server è aperto 24h il che ti permette di giocare quando e quanto vuoi",
     icon: Server,
     color: "from-emerald-400 to-teal-600"
   },
   {
     title: "Più Game Modes",
-    description: "Il server è attualmente in costruzione ma ha già previsto di aggiungere più modalità, attualmente l'unica modalità disponibile è la survival, ma ne verranno aggiunte di nuove!",
+    description: "Nel nostro server puoi trovare più gamemodes giocabili, una è attualmente in costruzione ma nell'attesa potete giocare alle altre 3!",
     icon: Users,
     color: "from-sky-400 to-blue-600"
   },
