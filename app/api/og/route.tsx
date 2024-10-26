@@ -5,7 +5,7 @@ export const runtime = 'edge'
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url)
-  const serverName = searchParams.get('serverName') || 'JellyFishMC'
+  const serverName = searchParams.get('serverName') || 'CrystalCove'
 
   const fontData = await fetch(
     new URL('/app/api/og/craft.ttf', import.meta.url)
