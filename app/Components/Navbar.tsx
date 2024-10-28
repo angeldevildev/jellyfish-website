@@ -57,7 +57,7 @@ export default function Navbar() {
         </div>
         
         {/* Store button */}
-        <Link href="/" className="hidden lg:block">
+        <Link href="https://crystalcove.craftingstore.net" target='_blank' className="hidden lg:block">
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -91,7 +91,7 @@ export default function Navbar() {
             {navItems.map((item) => (
               <NavLink key={item.name} href={item.href} icon={item.icon} mobile>{item.name}</NavLink>
             ))}
-            <Link href="https://jellyfish-shop.vercel.app" className="block" target='_blank'>
+            <Link href="https://crystalcove.craftingstore.net" className="block" target='_blank'>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

@@ -72,7 +72,7 @@ export default function Regolamento() {
         >
           CrystalCove
         </h1>
-      </div>
+      </div> 
       <h2
         className="text-[#FF5555] text-lg mb-2"
         style={{ fontFamily: "MineCraftFont" }}
