@@ -11,6 +11,8 @@ import angelAvatar from '../assets/avatarAngel.png'
 import angelSkin from '../assets/skinAngel.png'
 import frankAvatar from '../assets/frankAvatar.png'
 import frankSkin from '../assets/frankSkin.png'
+import unknownAvatar from '../assets/unknownAvatar.png'
+import unknownSkin from '../assets/unknownSkin.png'
 
 const teamMembers = [
   {
@@ -19,6 +21,13 @@ const teamMembers = [
     description: "E io, Frank Gallagher, padre, insegnante, mentore, capitano della nostra piccola nave. Forse non abbiamo molto, ma tutti noi conosciamo la cosa più importante: sappiamo fare festa, cazzo!",
     avatar: frankAvatar,
     skin: frankSkin,
+  },
+  {
+    name: "?",
+    title: "Owner",
+    description: "Owner nascosto tra gli utenti! Sarà difficile trovarmi tra gli utenti nascosti! Nessuno ci riuscirà anche se potreste avere degli indizi rimane un labirinto molto complesso!",
+    avatar: unknownAvatar,
+    skin: unknownSkin,
   },
   {
     name: "Angel & Devil",
