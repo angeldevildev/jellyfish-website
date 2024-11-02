@@ -37,6 +37,7 @@ const rules: Rules = {
     { id: 1, text: "Il PvP è consentito solo con il consenso reciproco." },
     { id: 2, text: "Uccidere o fare camping allo spawn non è permesso." },
     { id: 3, text: "L'uso di hack client o mod PvP ingiuste è severamente vietato." },
+    { id: 4, text: "Una volta ucciso un player l'inventario cadrà a terra e chi l'ha ucciso PUO' PRENDERLO" },
   ],
   4: [
     { id: 1, text: "Combatti solo contro chi è pronto e armato." },
